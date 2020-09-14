@@ -841,8 +841,14 @@ compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean
 
 ####### Compile
 
-main.o: main.cpp /usr/local/Cellar/qt/5.15.0/lib/QtGui.framework/Headers/QGuiApplication \
-		/usr/local/Cellar/qt/5.15.0/lib/QtGui.framework/Headers/qguiapplication.h
+main.o: main.cpp /usr/local/Cellar/qt/5.15.0/lib/QtQuick.framework/Headers/QQuickView \
+		/usr/local/Cellar/qt/5.15.0/lib/QtQuick.framework/Headers/qquickview.h \
+		/usr/local/Cellar/qt/5.15.0/lib/QtGui.framework/Headers/QGuiApplication \
+		/usr/local/Cellar/qt/5.15.0/lib/QtGui.framework/Headers/qguiapplication.h \
+		/usr/local/Cellar/qt/5.15.0/lib/QtQml.framework/Headers/QQmlContext \
+		/usr/local/Cellar/qt/5.15.0/lib/QtQml.framework/Headers/qqmlcontext.h \
+		/usr/local/Cellar/qt/5.15.0/lib/QtGui.framework/Headers/QSurfaceFormat \
+		/usr/local/Cellar/qt/5.15.0/lib/QtGui.framework/Headers/qsurfaceformat.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o main.cpp
 
 qrc_main.o: qrc_main.cpp 
