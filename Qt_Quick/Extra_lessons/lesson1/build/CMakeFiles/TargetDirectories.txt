@@ -1,0 +1,6 @@
+/Users/rui/Documents/GitHub/Qt_Practice/Qt_Quick/Extra_lessons/lesson1/build/CMakeFiles/lesson1.dir
+/Users/rui/Documents/GitHub/Qt_Practice/Qt_Quick/Extra_lessons/lesson1/build/CMakeFiles/rebuild_cache.dir
+/Users/rui/Documents/GitHub/Qt_Practice/Qt_Quick/Extra_lessons/lesson1/build/CMakeFiles/edit_cache.dir
+/Users/rui/Documents/GitHub/Qt_Practice/Qt_Quick/Extra_lessons/lesson1/build/CMakeFiles/Qt3DPointcloudRenderer.dir
+/Users/rui/Documents/GitHub/Qt_Practice/Qt_Quick/Extra_lessons/lesson1/build/CMakeFiles/lesson1_autogen.dir
+/Users/rui/Documents/GitHub/Qt_Practice/Qt_Quick/Extra_lessons/lesson1/build/CMakeFiles/Qt3DPointcloudRenderer_autogen.dir

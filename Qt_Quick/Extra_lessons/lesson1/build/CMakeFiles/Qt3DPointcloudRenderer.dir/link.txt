@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libQt3DPointcloudRenderer.a CMakeFiles/Qt3DPointcloudRenderer.dir/Qt3DPointcloudRenderer_autogen/mocs_compilation.cpp.o CMakeFiles/Qt3DPointcloudRenderer.dir/src/qpointcloud.cpp.o CMakeFiles/Qt3DPointcloudRenderer.dir/src/qpointcloudgeometry.cpp.o CMakeFiles/Qt3DPointcloudRenderer.dir/src/qpointfield.cpp.o CMakeFiles/Qt3DPointcloudRenderer.dir/src/qpointcloudreader.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libQt3DPointcloudRenderer.a

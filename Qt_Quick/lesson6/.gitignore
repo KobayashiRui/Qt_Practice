@@ -1,0 +1,5 @@
+lesson5.app/
+qrc_*
+*.o
+*.stash
+Makefile

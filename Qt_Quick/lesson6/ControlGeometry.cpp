@@ -16,8 +16,7 @@
 
 Qt3DRender::QGeometry *ControlGeometry::getGeometryData(Qt3DRender::QGeometry *geometry)
 {
-    std::cout << "Get Geometry" << std::endl;
-    std::cout << geometry->attributes().length() << std::endl;
+    std::cout << "defaultPositionAttributeName: " <<  Qt3DRender::QAttribute::defaultPositionAttributeName().toStdString() << std::endl;
 
     return geometry;
 }

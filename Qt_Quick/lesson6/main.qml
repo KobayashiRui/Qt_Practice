@@ -70,7 +70,7 @@ Item{
                     Component.onCompleted: {
                         console.log("complete!!")
                         controlGeometry.test()
-                        controlGeometry.getGeometryData(torusMesh.geometry)
+                        //controlGeometry.getGeometryData()
                     }
                 }
         
