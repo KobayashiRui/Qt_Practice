@@ -135,7 +135,7 @@ Item {
                                 console.log("update")
                                 console.log(pointCloudData.filename)
                                 //pointcloud = pointCloudData2.pointcloud
-                                pointcloud = pointCloudData.pointcloud
+                                //pointcloud = pointCloudData.pointcloud
                                 
                             }
                             function updatePointcloudGeom(){
