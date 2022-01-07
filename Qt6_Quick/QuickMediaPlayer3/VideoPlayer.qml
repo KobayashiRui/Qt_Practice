@@ -12,9 +12,6 @@ Window{
 
     signal mediaComp()
 
-
-
-
     MediaPlayer {
         id: mediaPlayer1
         videoOutput: videoOutput1
@@ -113,12 +110,16 @@ Window{
     function next(){
         if(!root.now){
             mediaPlayer2.play()
+            videoOutput1.visible = false
             videoOutput1.z = 2
             videoOutput2.z = 3
+            videoOutput1.visible = true
         }else{
             mediaPlayer1.play()
+            videoOutput2.visible = false
             videoOutput1.z = 3
             videoOutput2.z = 2
+            videoOutput2.visible = true
         }
 
         if(nowIndex >= (root.playList.length-1)){
