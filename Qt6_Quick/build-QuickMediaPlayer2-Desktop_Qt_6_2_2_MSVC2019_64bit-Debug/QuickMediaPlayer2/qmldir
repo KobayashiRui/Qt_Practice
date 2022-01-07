@@ -1,0 +1,4 @@
+module QuickMediaPlayer2
+typeinfo appQuickMediaPlayer2.qmltypes
+prefer :/QuickMediaPlayer2/
+

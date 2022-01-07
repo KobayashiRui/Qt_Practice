@@ -1,0 +1,11 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_54d11 && [1/2] Building CXX object CMakeFiles\cmTC_54d11.dir\CheckIncludeFile.cxx.obj
+FAILED: CMakeFiles/cmTC_54d11.dir/CheckIncludeFile.cxx.obj 
+C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\HostX64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_54d11.dir\CheckIncludeFile.cxx.obj /FdCMakeFiles\cmTC_54d11.dir\ /FS -c D:\GitHub\Qt_Practice\Qt6_Quick\build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+D:\GitHub\Qt_Practice\Qt6_Quick\build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: include ファイルを開けません。'pthread.h':No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+

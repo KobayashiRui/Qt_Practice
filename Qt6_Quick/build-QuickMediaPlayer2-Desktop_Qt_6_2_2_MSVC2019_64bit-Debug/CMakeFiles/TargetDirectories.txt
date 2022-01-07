@@ -1,0 +1,11 @@
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/appQuickMediaPlayer2.dir
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/appQuickMediaPlayer2_qmllint.dir
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/appQuickMediaPlayer2_qmltyperegistration.dir
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/all_qmltyperegistrations.dir
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/appQuickMediaPlayer2_other_files.dir
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/edit_cache.dir
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/all_qmllint.dir
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/appQuickMediaPlayer2_tooling.dir
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/appQuickMediaPlayer2_autogen_timestamp_deps.dir
+D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/appQuickMediaPlayer2_autogen.dir

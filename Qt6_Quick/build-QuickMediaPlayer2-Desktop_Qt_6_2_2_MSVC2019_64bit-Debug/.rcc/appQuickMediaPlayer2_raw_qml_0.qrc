@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/QuickMediaPlayer2/">
+    <file alias="main.qml">D:/GitHub/Qt_Practice/Qt6_Quick/QuickMediaPlayer2/main.qml</file>
+  </qresource>
+</RCC>
+

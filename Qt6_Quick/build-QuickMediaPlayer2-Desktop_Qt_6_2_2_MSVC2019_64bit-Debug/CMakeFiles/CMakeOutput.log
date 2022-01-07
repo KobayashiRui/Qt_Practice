@@ -1,0 +1,62 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) C/C++ Optimizing Compiler Version 19.29.30133 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30133.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_6e5fa && [1/2] Building CXX object CMakeFiles\cmTC_6e5fa.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_6e5fa.exe
+
+
+
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: D:/GitHub/Qt_Practice/Qt6_Quick/build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_93b02 && [1/2] Building CXX object CMakeFiles\cmTC_93b02.dir\src.cxx.obj
+D:\GitHub\Qt_Practice\Qt6_Quick\build-QuickMediaPlayer2-Desktop_Qt_6_2_2_MSVC2019_64bit-Debug\CMakeFiles\CMakeTmp\src.cxx(17): warning C4312: '型キャスト': 'unsigned int' からより大きいサイズの 'void *' へ変換します。
+[2/2] Linking CXX executable cmTC_93b02.exe
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+void test(volatile std::atomic<std::int64_t> &a)
+{
+    std::int64_t v = a.load(std::memory_order_acquire);
+    while (!a.compare_exchange_strong(v, v + 1,
+                                      std::memory_order_acq_rel,
+                                      std::memory_order_acquire)) {
+        v = a.exchange(v - 1);
+    }
+    a.store(v + 1, std::memory_order_release);
+}
+
+int main(int, char **)
+{
+    void *ptr = (void*)0xffffffc0; // any random pointer
+    test(*reinterpret_cast<std::atomic<std::int64_t> *>(ptr));
+    return 0;
+}
