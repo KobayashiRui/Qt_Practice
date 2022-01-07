@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<RCC version="1.0">
+    <qresource prefix="/QuickMediaPlayer3">
+        <file alias="main.qml">../QuickMediaPlayer3/main.qml</file>
+        <file alias="VideoPlayer.qml">../QuickMediaPlayer3/VideoPlayer.qml</file>
+    </qresource>
+</RCC>
