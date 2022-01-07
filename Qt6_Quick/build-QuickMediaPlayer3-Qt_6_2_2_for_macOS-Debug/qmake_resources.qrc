@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/QuickMediaPlayer3">
+<file alias="main.qml">/Users/rui/Documents/GitHub/Qt_Practice/Qt6_Quick/QuickMediaPlayer3/main.qml</file>
+<file alias="VideoPlayer.qml">/Users/rui/Documents/GitHub/Qt_Practice/Qt6_Quick/QuickMediaPlayer3/VideoPlayer.qml</file>
+</qresource>
+</RCC>
