@@ -40,7 +40,7 @@ Window {
     VideoPlayer{
         id: vp1
         onMediaComp: {
-            vp1.next();
+            next();
         }
     }
 
