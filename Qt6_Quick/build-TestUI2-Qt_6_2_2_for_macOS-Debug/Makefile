@@ -57,7 +57,8 @@ SOURCES       = ../TestUI2/main.cpp qrc_qmake_resources.cpp \
 OBJECTS       = main.o \
 		qrc_qmake_resources.o \
 		qrc_qmake_qmake_qm_files.o
-DIST          = /Users/rui/Qt/6.2.2/macos/mkspecs/features/spec_pre.prf \
+DIST          = ../TestUI2/LogView.qml \
+		/Users/rui/Qt/6.2.2/macos/mkspecs/features/spec_pre.prf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/device_config.prf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/common/unix.conf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/common/mac.conf \
@@ -276,6 +277,7 @@ DIST          = /Users/rui/Qt/6.2.2/macos/mkspecs/features/spec_pre.prf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/qt_config.prf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/macx-clang/qmake.conf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/spec_post.prf \
+		../TestUI2/.qmake.stash \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/exclusive_builds.prf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/mac/sdk.prf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/toolchain.prf \
@@ -313,7 +315,7 @@ TARGET        = TestUI2.app/Contents/MacOS/TestUI2
 EXPORT_QMAKE_MAC_SDK = macosx
 EXPORT_QMAKE_MAC_SDK_VERSION = 12.1
 EXPORT_QMAKE_XCODE_DEVELOPER_PATH = /Library/Developer/CommandLineTools
-EXPORT__QMAKE_STASH_ = 
+EXPORT__QMAKE_STASH_ = /Users/rui/Documents/GitHub/Qt_Practice/Qt6_Quick/build-TestUI2-Qt_6_2_2_for_macOS-Debug/.qmake.stash
 EXPORT_VALID_ARCHS = x86_64 arm64
 EXPORT_DEFAULT_ARCHS = arm64
 EXPORT_ARCHS = $(filter $(EXPORT_VALID_ARCHS), $(if $(ARCHS), $(ARCHS), $(if $(EXPORT_DEFAULT_ARCHS), $(EXPORT_DEFAULT_ARCHS), $(EXPORT_VALID_ARCHS))))
@@ -548,6 +550,7 @@ Makefile: ../TestUI2/TestUI2.pro /Users/rui/Qt/6.2.2/macos/mkspecs/macx-clang/qm
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/qt_config.prf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/macx-clang/qmake.conf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/exclusive_builds.prf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/mac/sdk.prf \
 		/Users/rui/Qt/6.2.2/macos/mkspecs/features/toolchain.prf \
@@ -806,6 +809,7 @@ Makefile: ../TestUI2/TestUI2.pro /Users/rui/Qt/6.2.2/macos/mkspecs/macx-clang/qm
 /Users/rui/Qt/6.2.2/macos/mkspecs/features/qt_config.prf:
 /Users/rui/Qt/6.2.2/macos/mkspecs/macx-clang/qmake.conf:
 /Users/rui/Qt/6.2.2/macos/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /Users/rui/Qt/6.2.2/macos/mkspecs/features/exclusive_builds.prf:
 /Users/rui/Qt/6.2.2/macos/mkspecs/features/mac/sdk.prf:
 /Users/rui/Qt/6.2.2/macos/mkspecs/features/toolchain.prf:
@@ -886,6 +890,7 @@ clean: compiler_clean
 
 distclean: clean 
 	-$(DEL_FILE) -r TestUI2.app
+	-$(DEL_FILE) .qmake.stash
 	-$(DEL_FILE) Makefile
 
 
@@ -913,6 +918,7 @@ compiler_rcc_clean:
 	-$(DEL_FILE) qrc_qmake_resources.cpp qrc_qmake_qmake_qm_files.cpp
 qrc_qmake_resources.cpp: qmake_resources.qrc \
 		/Users/rui/Qt/6.2.2/macos/libexec/rcc \
+		../TestUI2/LogView.qml \
 		../TestUI2/main.qml
 	/Users/rui/Qt/6.2.2/macos/libexec/rcc -name qmake_resources qmake_resources.qrc -o qrc_qmake_resources.cpp
 

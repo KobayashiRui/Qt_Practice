@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="logview.qml">/Users/rui/Documents/GitHub/Qt_Practice/Qt6_Quick/TestUI2/logview.qml</file>
+</qresource>
+</RCC>
