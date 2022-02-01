@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/TestUI2">
+<file alias="main.qml">/Users/rui/Documents/GitHub/Qt_Practice/Qt6_Quick/TestUI2/main.qml</file>
+</qresource>
+</RCC>
